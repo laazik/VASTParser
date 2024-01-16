@@ -4,6 +4,26 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>VAST Parser for .NET Core applications</Title>
+    <Authors>laazik</Authors>
+    <Company>Rockit Holding OÜ</Company>
+    <Description>Parser for Digital Video Ad Serving Template (VAST) files. Reads the VAST XML and produces a populated object file.</Description>
+    <Copyright>EUPL-1.2 http://ec.europa.eu/idabc/eupl</Copyright>
+    <PackageProjectUrl>https://github.com/laazik/VASTParser</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/laazik/VASTParser</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>VAST</PackageTags>
+    <PackageLicenseExpression>EUPL-1.2</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
