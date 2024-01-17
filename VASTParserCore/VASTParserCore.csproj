@@ -17,6 +17,8 @@
     <PackageTags>VAST</PackageTags>
     <PackageLicenseExpression>EUPL-1.2</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Version>1.0.0-alpha</Version>
+    <PackageId>Rockit.$(AssemblyName)</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

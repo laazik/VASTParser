@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+  <Ad id="12345678">
+    <Wrapper>
+      <AdSystem>TestAdSystem</AdSystem>
+      <VASTAdTagURI>
+        <![CDATA[http://localhost/inline.xml]]>
+      </VASTAdTagURI>
+      <Impression><![CDATA[http://localhost/notification/123?foo=bar&baz=bar&foobar=bazbar&]]></Impression>
+      <Impression><![CDATA[http://localhost/notification/456?foo=bar&baz=bar&]]></Impression>
+    </Wrapper>
+  </Ad>
+</VAST>

@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.Text;
-using System.Threading.Tasks;
+﻿///
+/// Copyright 2024 Marek Laasik, Rockit Holding OÜ
+/// Licensed under EUPL. Please see the following link for details
+/// https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
+///
 
-namespace VASTParserCore
+namespace Rockit.VASTParserCore
 {
     public sealed class VASTParserException : Exception
     {

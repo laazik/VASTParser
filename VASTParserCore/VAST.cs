@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Net.NetworkInformation;
-using System.Numerics;
-using System.Runtime.InteropServices;
-using System.Security.Principal;
+﻿///
+/// Copyright 2024 Marek Laasik, Rockit Holding OÜ
+/// Licensed under EUPL. Please see the following link for details
+/// https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
+///
 using System.Xml;
-using System.Xml.Linq;
 using System.Xml.Serialization;
 
-using static System.Net.Mime.MediaTypeNames;
-
-namespace VASTParserCore
+namespace Rockit.VASTParserCore
 {
     [XmlRoot(ElementName = "VAST")]
     public class VAST
